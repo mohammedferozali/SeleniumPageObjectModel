@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Vz Automation Test Suite">
+
+	<listeners>
+		<listener
+			class-name="com.vz.extentreportlistener.ExtentReportNG" />
+	</listeners>
+
+
+	<test name="Vz Automation Test Cases">
+		<classes>
+			<class name="com.vz.test.AccessoryBatteriesChargers" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
