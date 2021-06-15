@@ -28,10 +28,10 @@ public class Homepage extends TestBase {
 	 * exception.
 	 */
 
-	@FindBy(xpath = "//*[@id='gnav20-Shop-L2-3']")
+	@FindBy(xpath = "//*[@id='gnav20-Shop-L2-4']")
 	WebElement AccessoryBTN;
 
-	@FindBy(xpath = "//*[@id='gnav20-Shop-L3-45']")
+	@FindBy(xpath = "//*[@id='gnav20-Shop-L3-52']")
 	WebElement CategoryPower;
 
 	@FindBy(xpath = "//a[@id='gnav20-Shop-L3-44']")

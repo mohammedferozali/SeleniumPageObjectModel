@@ -9,16 +9,16 @@ public class AccessoryPage extends TestBase {
 
 	// PageFactory = OR
 
-	@FindBy(xpath = "//*[contains(text(),'Power up your phone with batteries built for long days.')]")
+	@FindBy(xpath = "//a[@sitecat-cta='Batteries']")
 	WebElement BatteryLabel;
 
-	@FindBy(xpath = "//*[contains(text(),'Give your phone a boost with a variety of high-speed chargers.')]")
+	@FindBy(xpath = "//a[@sitecat-cta='Chargers']")
 	WebElement ChargersLabel;
 	
-	@FindBy(xpath = "//*[contains(text(),'Make sure your phone works for you, wherever you are.')]")
+	@FindBy(xpath = "//a[@sitecat-cta='Adapters & cables']")
 	WebElement AdaptersLabel;
 	
-	@FindBy(xpath = "//*[contains(text(),'Never run low on power for your phones and devices.')]")
+	@FindBy(xpath = "//a[@sitecat-cta='Car chargers']")
 	WebElement CarsChargerLabel;
 
 	@FindBy(xpath = "//div[@class='Tile__TileContent-jvzv4v-16 cgOtjf']")
