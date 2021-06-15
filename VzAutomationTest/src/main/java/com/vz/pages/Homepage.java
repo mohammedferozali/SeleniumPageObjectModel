@@ -37,7 +37,7 @@ public class Homepage extends TestBase {
 	@FindBy(xpath = "//a[@id='gnav20-Shop-L3-44']")
 	WebElement CasesAndProtection;
 
-	@FindBy(xpath = "//*[@src='https://www.verizon.com/dam/vzwcom/gnav/global/VZ-White.svg']")
+	@FindBy(xpath = "//img[@alt='Verizon Logo']")
 	WebElement Logo;
 
 	// Initializing the Page Objects
