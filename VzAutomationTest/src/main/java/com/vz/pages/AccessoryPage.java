@@ -14,23 +14,23 @@ public class AccessoryPage extends TestBase {
 
 	@FindBy(xpath = "//a[@sitecat-cta='Chargers']")
 	WebElement ChargersLabel;
-	
+
 	@FindBy(xpath = "//a[@sitecat-cta='Adapters & cables']")
 	WebElement AdaptersLabel;
-	
+
 	@FindBy(xpath = "//a[@sitecat-cta='Car chargers']")
 	WebElement CarsChargerLabel;
 
-	@FindBy(xpath = "//div[@class='Tile__TileContent-jvzv4v-16 cgOtjf']")
+	@FindBy(xpath = "//div[@class='Tile__TileContent-sc-kxwdnj-17 fIVXmU']")
 	WebElement RandomAccessorySelection;
 
-	@FindBy(xpath = "(//span[@display='flex'][@class='StyledChildWrapper-bc3yhn-1 iIJMoM'])[2]")
+	@FindBy(xpath = "//div[@class='ContinueCTAComponent__BtnText-sc-142ig1c-9 hPGshB']")
 	WebElement AddToCartBTN;
-	
+
 	@FindBy(xpath = "//button[@analyticstrack='offer-not-req-link']")
 	WebElement PopUpNotNowLink;
 
-	@FindBy(xpath = "//button[text()='Checkout']")
+	@FindBy(xpath = "//span[text()='Check out']")
 	WebElement PDPCheckout;
 
 	@FindBy(id = "//input[@id='ispu']")
@@ -79,7 +79,7 @@ public class AccessoryPage extends TestBase {
 		AddToCartBTN.click();
 		return new ShoppingCart();
 	}
-	
+
 	public ShoppingCart AdaptersSection() {
 
 		AdaptersLabel.click();
@@ -87,15 +87,13 @@ public class AccessoryPage extends TestBase {
 		AddToCartBTN.click();
 		return new ShoppingCart();
 	}
-	
+
 	public ShoppingCart CarChargerSection() {
 
 		CarsChargerLabel.click();
 		RandomAccessorySelection.click();
 		AddToCartBTN.click();
-		PopUpNotNowLink.click();
 		return new ShoppingCart();
 	}
-
 
 }
