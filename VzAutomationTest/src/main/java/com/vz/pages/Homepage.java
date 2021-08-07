@@ -13,7 +13,7 @@ public class Homepage extends TestBase {
 
 	// PageFactory = OR
 
-	@FindBy(xpath = "//button[@id ='gnav20-Shop-L1'][2]")
+	@FindBy(xpath = "//button[@id ='gnav20-Shop-L1']")
 	@CacheLookup
 	WebElement Shop;
 
