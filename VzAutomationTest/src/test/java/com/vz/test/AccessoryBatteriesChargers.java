@@ -73,8 +73,7 @@ public class AccessoryBatteriesChargers extends TestBase {
 		
 		String title = Home.HomeTitle();
 		// Using Assert to Validate the Title
-		Assert.assertEquals(title, "Verizon: Wireless, Internet, TV and Phone Services | Official Site",
-				"Home Page Title not Matching");
+		Assert.assertEquals(title, "Verizon: Wireless, Internet, TV and Phone Services | Official Site");
 			
 		log.warn("Hey this just a warning message");
 		log.fatal("Hey this is just fatal error message");
