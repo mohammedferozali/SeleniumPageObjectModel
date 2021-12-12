@@ -10,7 +10,7 @@ public class ShoppingCart extends TestBase {
 
 	// PageFactory = OR
 
-	@FindBy(xpath = "//button[@analyticstrack='checkout-cta']")
+	@FindBy(xpath = "//button[text()='Checkout']")
 	WebElement CheckoutBTN;
 
 	@FindBy(xpath = "//a[@analyticstrack='checkout-as-guest-cta']")

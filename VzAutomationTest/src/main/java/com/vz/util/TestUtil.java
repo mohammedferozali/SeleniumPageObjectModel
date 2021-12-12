@@ -53,6 +53,7 @@ public class TestUtil extends TestBase {
 		return data;
 	}
 
+	//Add this Method Inside WebEventListener Method for any fails
 	public static void takeScreenshotAtEndOfTest() throws IOException {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String currentDir = System.getProperty("user.dir");

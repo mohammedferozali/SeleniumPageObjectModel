@@ -21,10 +21,10 @@ public class AccessoryPage extends TestBase {
 	@FindBy(xpath = "//a[@sitecat-cta='Car chargers']")
 	WebElement CarsChargerLabel;
 
-	@FindBy(xpath = "//div[@class='Tile__TileContent-sc-kxwdnj-17 fIVXmU']")
+	@FindBy(xpath = "//div[@class='Tile-sc-71g958-0 jkvLYj']")
 	WebElement RandomAccessorySelection;
 
-	@FindBy(xpath = "//div[@class='ContinueCTAComponent__BtnText-sc-142ig1c-9 hPGshB']")
+	@FindBy(xpath = "//span[text()='Continue'] | //*[text()='Add to order'] | | //*[text()='Add to cart'] ")
 	WebElement AddToCartBTN;
 
 	@FindBy(xpath = "//button[@analyticstrack='offer-not-req-link']")
@@ -83,7 +83,7 @@ public class AccessoryPage extends TestBase {
 	public ShoppingCart AdaptersSection() {
 
 		AdaptersLabel.click();
-		RandomAccessorySelection.click();
+		RandomAccessorySelection.click();                                                                                                                                                                                                       
 		AddToCartBTN.click();
 		return new ShoppingCart();
 	}
