@@ -92,7 +92,7 @@ public class AccessoryBatteriesChargers extends TestBase {
 		Assert.assertTrue(flag);
 	}
 
-	@Test(priority = 3, dataProvider = "getShippingInformationTestData")
+	@Test(priority = 3, dataProvider = "getShippingInformationTestData", retryAnalyzer = com.vz.util.MyRetry.class)
 	public void ShopBattery(String CompanyName, String FirstName, String LastName, String Address, String Apartment,
 			String Zipcode, String EmailID, String Phonenumber) {
 
